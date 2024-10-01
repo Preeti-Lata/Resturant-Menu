@@ -1,0 +1,34 @@
+changing background 
+
+h1{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.main_container  div{
+    border: 2px solid black;
+    background-color: #bfa5a5;
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.main_container  div img{
+    width: 280px;
+    height: 250px;
+}
+.main_container div h1,p,img{
+    margin: 10px;
+}
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/02/52/12/40/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg ");
+    background-size: cover;
+    background-image: opacity;
+}
